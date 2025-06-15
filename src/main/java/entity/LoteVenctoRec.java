@@ -15,4 +15,5 @@ public record LoteVenctoRec(int codfil,
     public LoteVenctoRec() {
         this(0, 0, "", "", 0.0, null, 0, 0.0, "", 0, "", 0.0);
     }
+
 }

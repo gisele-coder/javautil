@@ -239,6 +239,7 @@ public class LoteVencto {
         this.coditprod = coditprod;
     }
 
+
     public String getDtFabricacao() {
         return dtFabricacao;
     }

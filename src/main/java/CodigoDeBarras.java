@@ -10,6 +10,7 @@ public class CodigoDeBarras {
     public static void main(String[] args) {
         //Fazer testes com os códigos lidos do comentário acima
 
+
         String codigoLido = "015035168850378511191205103921124";
         LoteVencto lote = quebraCodigoLido(codigoLido);
         if (lote != null) {
