@@ -6,7 +6,7 @@ import util.funcoes;
 public class LoteVencto {
 
     private int codfil;
-    private int coditprod;
+    private long coditprod;
     private String lote;
     private String dtVencto;
     private double qtd;
@@ -231,11 +231,11 @@ public class LoteVencto {
         return diferenca;
     }
 
-    public int getCoditprod() {
+    public long getCoditprod() {
         return coditprod;
     }
 
-    public void setCoditprod(int coditprod) {
+    public void setCoditprod(long coditprod) {
         this.coditprod = coditprod;
     }
 
